@@ -11,7 +11,8 @@
 }
 
 body {
-  margin: 0 auto 10px auto;
+  margin: 0;
+  padding: 0;
   background: #ececec;
   font-family: Helvetica;
   font-size: 12;
@@ -216,6 +217,8 @@ input[type="submit"] {
   margin: 10px auto 10px auto;
   padding-left: 10px;
   padding-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   background-color: rgb(190, 165, 190);
   display: flex;
   justify-content: space-between;
